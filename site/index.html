@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ICONE DA PAGINA-->
+    <link rel="shortcut icon" href="./img/produto.png"/>
+    <!--CSS EXterno-->
+    <link rel="stylesheet" href="/css/estilo.css"/>
+    <title>Site Projeto</title>
+</head>
+<body>
+    <div id="main">
+        <!--NAGEGAÇÃO DAS PAGINAS-->
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portifolio">Portifólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <!--BOTÕES PARA MUDAR A COR DO SITE-->
+                <div>
+                    <input type="button" class="cor" onclick="trocar('#87CEFA')">
+                    <input type="button" class="cor" onclick="trocar('#00FA9A')">
+                    <input type="button" class="cor" onclick="trocar('#DA70D6')">
+                </div>
+            </ul>
+        </nav>
+        <!--SEÇÃO SOBRE-->
+        <section id="sobre">
+            <h1>Sobre</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem iusto dolorem fugiat corporis placeat ut sunt saepe nihil quibusdam? Ut qui voluptatem laudantium veniam nobis facilis! Aliquid aut necessitatibus molestiae!</p>
+        </section>
+        <!--SEÇÃO PORTIFOLIO-->
+        <section id="portifolio">
+            <h1>Portifólio</h1>
+            <!--CARD-1-->
+            <div class="card">
+                <img src="./img/produto.png" alt="image"/>
+                <h3>Produto-1</h3>
+                <p>Descrição do produto</p>
+                <button>R$100,00</button>
+            </div>
+            <!--CARD-2-->
+            <div class="card">
+                <img src="./img/produto.png" alt="image"/>
+                <h3>Produto-2</h3>
+                <p>Descrição do produto</p>
+                <button>R$100,00</button>
+            </div>
+            <!--CARD-3-->
+            <div class="card">
+                <img src="./img/produto.png" alt="image"/>
+                <h3>Produto-3</h3>
+                <p>Descrição do produto</p>
+                <button>R$100,00</button>
+            </div>
+        </section>
+        <!--SEÇÃO CONTATO-->
+        <section id="contato">
+            <h1>Contato</h1>
+            <h2>Telefone: (11)11111-1111</h2>
+        </section>
+        
+        <footer>
+            <h5>@2024-todos os direitos reservados.</h5>
+        </footer>
+
+    </div>
+    <!--JAVASCRIPT EXTERNO-->
+    <script src="script.js"></script>
+</body>
+</html>
